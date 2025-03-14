@@ -30,8 +30,20 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWVZB74J" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <h1>GA4 Debug</h1>
+    <div style="margin-bottom: 25px;">
+      <a href="#" style="border: solid 3px; padding: 5px; border-radius: 10px; border-color:red" onclick="trEventClick(this, 'ホーム', 'クリック', 'リンク')">ボタン</a>
+    </div>
+    <div style="margin-bottom: 25px;">
+      <a href="#" class="ga-click" style="border: solid 3px; padding: 5px; border-radius: 10px; border-color:blue" >ボタン</a>
+    </div>
+    <div class="ga-intersection-observer" style="background-color: red; height: 500px; width: 500px; margin: 10px 0;" data-ga-value="red">
+      Red
+    </div>
     <div>
-      <a href="#" onclick="trEventClick(this, 'ホーム', 'クリック', 'リンク');">リンク</a>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/mlYQtVAieCo?si=LSdMZTAkJwTJtMAs&mute=1&autoplay=1&playlist=mlYQtVAieCo&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="ga-intersection-observer" style="background-color: blue; height: 500px; width: 500px; margin: 10px 0;" data-ga-value="blue">
+      Blue
     </div>
   </body>
 </html>
